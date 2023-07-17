@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.calc {
+  width: 320px;
+  margin: 100px auto;
+}
+
+#answer {
+  background-color: #e2e2e2;
+  padding: 10px;
+  font-size: 35px;
+  width: 295px;
+  height: 45px;
+  text-align: right;
+  border: 3px solid black
+}
+
+.button {
+  background: #333;
+  height: 80px;
+  width: 80px;
+  color: white;
+  font-size: xx-large;
+  border: 1px solid black;
+  float: left;
+}
+
+.button1 {
+  width: 160px;
+}
